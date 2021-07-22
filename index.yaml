@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  databases:
+  - apiVersion: v2
+    appVersion: "1"
+    created: "2021-07-22T09:33:45.250009628+01:00"
+    dependencies:
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.7.x
+    description: Database Deployment
+    digest: f6db6bf9420bbb289815d18265546ef31d6c9a99cad5d791269ef42dfc367502
+    name: databases
+    type: application
+    urls:
+    - https://github.com/aditya-helmchart/aditya-helmchart.git
+    version: "1"
+generated: "2021-07-22T09:33:45.241105725+01:00"
