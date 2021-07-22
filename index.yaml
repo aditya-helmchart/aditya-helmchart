@@ -13,6 +13,6 @@ entries:
     name: databases
     type: application
     urls:
-    - https://github.com/aditya-helmchart/aditya-helmchart.git
+    - https://github.com/aditya-helmchart
     version: "1"
 generated: "2021-07-22T09:33:45.241105725+01:00"
