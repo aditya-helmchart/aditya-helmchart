@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-07-30T04:58:38.514455236+01:00"
+    dependencies:
+    - name: wordpress
+      repository: https://charts.bitnami.com/bitnami
+      version: 5.8.0
+    description: A Helm chart for Kubernetes
+    digest: b6b08ebdff44f64c8183a5c4b5a1f38de6bce0b8da315b42cb4d77d26494784a
+    name: app
+    type: application
+    urls:
+    - https://aditya-helmchart.github.io/app-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-07-30T04:58:38.509768944+01:00"
