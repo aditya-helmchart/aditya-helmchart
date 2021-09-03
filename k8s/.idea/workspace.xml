@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d8d7542-076f-40ff-90bf-8e8b15b974b6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1xU04TXLn3K0ovnkRbCkmNUSeC2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../helm-charts" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/deployment" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/volume" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d8d7542-076f-40ff-90bf-8e8b15b974b6" name="Default Changelist" comment="" />
+      <created>1630394168523</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630394168523</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="271" y="59" width="800" height="684" key="#Project_Structure" timestamp="1630394181055">
+      <screen x="72" y="27" width="1208" height="741" />
+    </state>
+    <state x="271" y="59" width="800" height="684" key="#Project_Structure/72.27.1208.741@72.27.1208.741" timestamp="1630394181055" />
+    <state x="459" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1630491020418">
+      <screen x="72" y="27" width="1208" height="741" />
+    </state>
+    <state x="459" y="155" width="424" height="491" key="FileChooserDialogImpl/72.27.1208.741@72.27.1208.741" timestamp="1630491020418" />
+    <state x="165" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1630402078869">
+      <screen x="72" y="27" width="1208" height="741" />
+    </state>
+    <state x="165" y="31" width="1022" height="737" key="SettingsEditor/72.27.1208.741@72.27.1208.741" timestamp="1630402078869" />
+  </component>
+</project>
