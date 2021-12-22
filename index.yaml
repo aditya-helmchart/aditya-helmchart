@@ -1,18 +1,45 @@
 apiVersion: v1
 entries:
   app:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2021-07-30T04:58:38.514455236+01:00"
+  - annotations:
+      category: CMS
+    apiVersion: v2
+    appVersion: 5.8.2
+    created: "2021-12-22T10:14:01.739342272Z"
     dependencies:
-    - name: wordpress
+    - condition: mariadb.enabled
+      name: mariadb
       repository: https://charts.bitnami.com/bitnami
-      version: 5.8.0
-    description: A Helm chart for Kubernetes
-    digest: b6b08ebdff44f64c8183a5c4b5a1f38de6bce0b8da315b42cb4d77d26494784a
+      version: 9.x.x
+    - condition: memcached.enabled
+      name: memcached
+      repository: https://charts.bitnami.com/bitnami
+      version: 5.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Web publishing platform for building blogs and websites.
+    digest: 3cae139a9b11a78631070e9ff789dc073dcb648e02cd9a031160d44e7a59aa8f
+    home: https://github.com/bitnami/charts/tree/master/bitnami/wordpress
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - application
+    - blog
+    - cms
+    - http
+    - php
+    - web
+    - wordpress
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
     name: app
-    type: application
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    - https://wordpress.org/
     urls:
-    - https://aditya-helmchart.github.io/app-0.1.0.tgz
-    version: 0.1.0
-generated: "2021-07-30T04:58:38.509768944+01:00"
+    - https://aditya-helmchart.github.io/app-1.1.0.tgz
+    version: 1.1.0
+generated: "2021-12-22T10:14:01.722867441Z"

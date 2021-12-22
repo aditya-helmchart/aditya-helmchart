@@ -1,6 +1,0 @@
-global:
-  namespace: dev-test
-
-api:
-  replica:
-    count: 5
